@@ -34,5 +34,5 @@ func GenerateGenesisBlock() Block {
 	preBlock := Block{}
 	preBlock.Index = -1
 	preBlock.Hash = ""
-	return GenerateNewBlock(preBlock, "创始区块")
+	return GenerateNewBlock(preBlock, "创世区块")
 }
